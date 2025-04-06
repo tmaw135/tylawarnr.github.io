@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D5B690;
+  color: #000000;
+  text-align: center;
+  font-family: 'Black Han Sans', 'Feeling Passionate', sans-serif;
+}
+
+header, footer {
+  background-color: #D5B690;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 50px 20px;
+}
+
+.btn {
+  background-color: #D5B690;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #663300;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
