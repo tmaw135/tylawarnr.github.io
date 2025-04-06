@@ -1,35 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tailored by Tee</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
-    <div class="logo-container">
-      <img src="images/logo.png" alt="Tailored by Tee Logo" class="logo">
-      <button class="login-btn">Login</button>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="customize.html">Customize</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Tailored by Tee</h1>
   </header>
-  <section class="hero">
-    <h1>Welcome to Tailored by Tee</h1>
-    <p>Elegant, Custom, Timeless Wear</p>
-    <a href="products.html" class="btn">Shop Now</a>
-  </section>
-  <footer>
-    <p>&copy; 2025 Tailored by Tee. All rights reserved.</p>
-  </footer>
+  <main>
+    <form name="contactForm" onsubmit="return validateForm()">
+      <input type="text" name="name" placeholder="Name" />
+      <input type="text" name="email" placeholder="Email" />
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
 </body>
 </html>
